@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/op0"
+        android:title="Registrar"></item>
+    <item
+        android:id="@+id/op1"
+        android:title="Ver"></item>
+    <item
+        android:id="@+id/op2"
+        android:title="Modificar"></item>
+    <item
+        android:id="@+id/op3"
+        android:title="ELIMINAR"
+        android:icon="@drawable/borrar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/op4"
+        android:title="SALIR"
+        android:icon="@drawable/salir"
+        app:showAsAction="always"></item>
+</menu>

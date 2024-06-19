@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bienvenid@"
+        android:fontFamily="@font/dancingscrip"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="@color/rosa"></TextView>
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textColor="@color/rosa"
+        android:hint="Usuario"
+        android:textColorHint="@color/rosa"></EditText>
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textColor="@color/rosa"
+        android:hint="Contraseña"
+        android:textColorHint="@color/rosa"
+        android:inputType="textPassword"></EditText>
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/rosa"
+        android:text="Ingresar"
+        android:textSize="20sp"
+        android:textColor="#FFFFFFFF"></Button>
+
+</LinearLayout>

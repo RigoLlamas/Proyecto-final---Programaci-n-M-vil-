@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">21100298_LaMichoacana</string>
+
+    <string-array name="tamaños">
+        <item>Grande</item>
+        <item>Mediana</item>
+        <item>Chica</item>
+    </string-array>
+</resources>
